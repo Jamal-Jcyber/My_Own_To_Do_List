@@ -1,0 +1,167 @@
+body {
+
+    background-color: #fff;
+
+    color: #d2d7df;
+
+}
+
+.app {
+
+    width: 500px;
+
+    margin: auto;
+
+    background-color: #353535;
+
+    padding-top: 5px;
+
+    padding-bottom: 5px;
+
+    -webkit-border-radius: 10px;
+
+    -moz-border-radius: 10px;
+
+    border-radius: 10px;
+
+}
+
+.header {
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    /* border-bottom: 1px solid white; */
+
+    font-size: 0.85em;
+
+}
+
+.task-container {
+
+    text-transform: uppercase;
+
+}
+
+.task {
+
+    display: flex;
+
+    flex-direction: row;
+
+    font-size: 1.2em;
+
+    align-items: stretch;
+
+    padding: 15px 5px 15px 10px;
+
+    border-bottom: 1px solid #d2d7df;
+
+    cursor: default;
+
+}
+
+.task:hover {
+
+    background-color: #6c6c6c;
+
+}
+
+.task:last-child {
+
+    border-bottom: none;
+
+}
+
+.task-text {
+
+    flex-grow: 1;
+
+    padding-left: 5px;
+
+}
+
+.task.done .task-text {
+
+    font-style: italic;
+
+    text-decoration: line-through;
+
+    color: #babec5;
+
+}
+
+.remove-btn {
+
+    border: 0;
+
+    background-color: inherit;
+
+    cursor: pointer;
+
+
+
+    color: #d2d7df;
+
+    border: 1px solid #babec5;
+
+    text-transform: uppercase;
+
+    margin-right: 3px;
+
+}
+
+.task-input-container {
+
+    display: flex;
+
+    flex-direction: row;
+
+    /* border-bottom: 2px solid #d2d7df; */
+
+    padding: 8px;
+
+}
+
+.task-input-container input {
+
+    width: 100%;
+
+    font-size: 1.35em;
+
+    padding: 6px;
+
+    background-color: #353535;
+
+    border: 1px solid #babec5;
+
+    color: #d2d7df;
+
+}
+
+.task-input-container input:focus {
+
+    outline: none;
+
+}
+
+.task-input-container button {
+
+    width: 100px;
+
+    color: #d2d7df;
+
+    background-color: #353535;
+
+    text-transform: uppercase;
+
+    margin-left: 4px;
+
+}
+
+.task-input-container button:focus {
+
+    outline: none;
+
+}
